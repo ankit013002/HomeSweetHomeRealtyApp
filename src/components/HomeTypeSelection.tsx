@@ -13,7 +13,7 @@ const HomeTypeSelection = () => {
   return (
     <div>
       <Select>
-        <SelectTrigger className="w-auto">
+        <SelectTrigger className="w-auto text-white">
           <SelectValue placeholder="Select home type" />
         </SelectTrigger>
         <SelectContent>

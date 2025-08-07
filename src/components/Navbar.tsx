@@ -8,16 +8,16 @@ import HomeTypeSelection from "./HomeTypeSelection";
 
 const Navbar = () => {
   return (
-    <div className="min-h-10 bg-neutral-900 flex items-center p-2 gap-x-5">
+    <div className="w-full max-h-[5vh] bg-neutral-900 flex items-center p-2 gap-x-5">
       <div className="flex font-bold text-white items-center gap-x-1">
         <House />
         <span>HomeSweetHome</span>
       </div>
       <div className="flex w-full max-w-sm items-center">
         <Input
-          type="email"
+          type="text"
           className="rounded-bl-1xl rounded-tl-1xl rounded-r-none border-neutral-500 text-white"
-          placeholder="Email"
+          placeholder="Search for a home"
         />
         <Button
           type="submit"

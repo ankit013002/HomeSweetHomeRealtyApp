@@ -13,8 +13,8 @@ const BedroomSelection = () => {
   return (
     <div>
       <Select>
-        <SelectTrigger className="w-auto">
-          <SelectValue placeholder="Bedrooms" />
+        <SelectTrigger className="w-auto text-white">
+          <SelectValue className="text-white" placeholder="Bedrooms" />
         </SelectTrigger>
         <SelectContent>
           <SelectGroup>

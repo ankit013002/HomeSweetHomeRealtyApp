@@ -13,7 +13,7 @@ const TransactionSelection = () => {
   return (
     <div>
       <Select>
-        <SelectTrigger className="w-auto">
+        <SelectTrigger className="w-auto text-white">
           <SelectValue placeholder="Buy" />
         </SelectTrigger>
         <SelectContent>
