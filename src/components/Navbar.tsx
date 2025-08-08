@@ -8,7 +8,7 @@ import HomeTypeSelection from "./HomeTypeSelection";
 
 const Navbar = () => {
   return (
-    <div className="w-full max-h-[5vh] bg-neutral-900 flex items-center p-2 gap-x-5">
+    <div className="w-full bg-neutral-900 flex items-center p-2 gap-x-5">
       <div className="flex font-bold text-white items-center gap-x-1">
         <House />
         <span>HomeSweetHome</span>
